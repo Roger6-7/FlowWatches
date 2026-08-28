@@ -91,6 +91,23 @@ Back-End:
 - `Mongoose`
 - `Next.js (API) Route Handler`
 
+## Deploy to Vercel
+
+1. Import the repository into Vercel.
+2. Set the environment variables from `.env.example`.
+3. Use Node.js 20.x for the deployment.
+4. Deploy from the repository root (the folder containing `package.json` and `app/`).
+
+Required for the application:
+- `NEXT_PUBLIC_URL`
+- `NEXT_PUBLIC_CONSUMET_URL`
+- `GRAPHQL_ENDPOINT`
+- `ANILIST_CLIENT_ID`
+- `ANILIST_CLIENT_SECRET`
+- `NEXTAUTH_SECRET`
+- `NEXTAUTH_URL`
+- `MONGODB_URI`
+
 ## Run Locally
 
 Clone the project
